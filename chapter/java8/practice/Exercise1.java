@@ -16,7 +16,7 @@ public class Exercise1 {
         List<Integer> numbers = Arrays.asList(10,15,8,49,25,98,32);
         List<Integer> evenNumbers= new ArrayList<>();
 
-        System.out.println("-------Iterating using normal iterator method---------");
+        System.out.println("------- Iterating using normal iterator method---------");
         Iterator<Integer> iterateNumbers = numbers.iterator();
         while (iterateNumbers.hasNext()) {
 
